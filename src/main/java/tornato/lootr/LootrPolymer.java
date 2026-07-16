@@ -52,7 +52,7 @@ public class LootrPolymer implements ModInitializer {
                         PackActivationType.ALWAYS_ENABLED));
 
         excludeFromSync(BuiltInRegistries.CUSTOM_STAT, ModStats.LOOTED_LOCATION);
-        RegistrySyncUtils.setServerEntry(BuiltInRegistries.PARTICLE_TYPE, ModParticles.UNOPENED_PARTCLE);
+        RegistrySyncUtils.setServerEntry(BuiltInRegistries.PARTICLE_TYPE, ModParticles.UNOPENED_PARTICLE);
         RegistrySyncUtils.setServerEntry(BuiltInRegistries.PARTICLE_TYPE, ModParticles.REFRESH_PARTICLE);
     }
 
